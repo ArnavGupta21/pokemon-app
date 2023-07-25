@@ -8,9 +8,9 @@ function App () {
   const [totalPages, setTotalPages] = useState(0);
   const [searchTerm, setSearchTerm] = useState("");
   const [isLoading, setIsLoading] = useState(true);
-  const [loadingText, setLoadingText] = useState("Loading Pokémon");
+  const [loadingText, setLoadingText] = useState("Loading The Pokémons..");
   const itemsPerPage = 10;
-  const totalPokemons = 1010;
+  const totalPokemons = 720;
 
   useEffect(() => {
     const fetchPokemonData = async () => {
